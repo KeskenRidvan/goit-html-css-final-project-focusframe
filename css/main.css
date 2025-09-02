@@ -1,0 +1,72 @@
+@import "./common.css";
+@import "./layouts/header.css";
+@import "./sections/hero.css";
+@import "./sections/with-us.css";
+@import "./sections/about-us.css";
+@import "./sections/our-courses.css";
+@import "./sections/our-mentors.css";
+@import "./sections/sign-up.css";
+@import "./sections/reviews.css";
+@import "./layouts/footer.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family-primary);
+
+  background-color: var(--main-dark);
+
+  max-width: 1440px;
+  width: 100%;
+
+  margin: 0 auto;
+}
+
+.dm-sans-normal {
+  font-family: var(--font-family-primary);
+  font-weight: var(--font-weight-normal);
+  font-style: var(--font-style-normal);
+}
+
+.dm-sans-bold {
+  font-family: var(--font-family-primary);
+  font-weight: var(--font-weight-bold);
+  font-style: var(--font-style-normal);
+}
+
+.dm-sans-link {
+  font-family: var(--font-family-primary);
+  font-weight: var(--font-weight-bold);
+  font-style: var(--font-style-normal);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 23.4375rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 48rem;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 80rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 90rem;
+  }
+}

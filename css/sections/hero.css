@@ -1,0 +1,243 @@
+#hero-section {
+  background-image: url("../../src/images/responsive/375px/header-hero/header-hero-image-1.png");
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-section-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 20.9375rem;
+  width: 100%;
+  background-color: var(--secondary-dark);
+  border-radius: 1.875rem;
+
+  margin-bottom: 5rem;
+
+  height: 48.5625rem;
+}
+
+.hero-title {
+  margin: 2.5rem 1.25rem 0 1.25rem;
+  font-size: 2.5rem;
+  color: var(--main-white);
+  line-height: 2.75rem;
+  font-weight: 500;
+  letter-spacing: -0.04rem;
+}
+
+.hero-title span {
+  color: var(--main-brown);
+}
+
+.hero-content {
+  margin: 1.25rem 1.25rem 2.5rem 1.25rem;
+  color: var(--main-white);
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+}
+
+.hero-middle {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  max-width: 15.8125rem;
+  gap: 2.5rem;
+  margin-bottom: 1.9375rem;
+  margin: 0rem 0rem 1.9375rem 1.25rem;
+}
+
+.hero-small-image {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.25rem;
+}
+
+.hero-happy-student-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+}
+
+.hero-happy-student-info p {
+  color: var(--main-white);
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  letter-spacing: -0.04em;
+  max-width: 4.1875rem;
+  width: 100%;
+}
+
+.arrow-stroke {
+  stroke: var(--main-white);
+  fill: var(--main-white);
+
+  width: 1.125rem;
+  height: 0.5413rem;
+}
+
+.hero-reviews-container {
+  display: flex;
+  align-items: center;
+
+  margin-top: 0;
+  gap: 0.75rem;
+}
+
+.hero-reviews-container span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 2.75rem;
+  height: 2.75rem;
+  background-color: var(--main-brown);
+  border-radius: 50%;
+}
+
+.icon-star {
+  stroke: var(--main-dark);
+  fill: transparent;
+
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.hero-reviews-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.hero-reviews {
+  color: var(--secondary-white);
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  letter-spacing: -0.04em;
+  font-weight: 400;
+}
+
+.hero-reviews-count {
+  color: var(--main-white);
+}
+
+@media screen and (min-width: 768px) {
+  #hero-section {
+    background-image: url("../../src/images/responsive/768px/header-hero/header-hero-image-1.png");
+  }
+
+  .hero-section-container {
+    max-width: 44rem;
+    width: 100%;
+
+    height: 56.25rem;
+
+    margin-bottom: 6.25rem;
+  }
+
+  .hero-content-container {
+    align-self: flex-start;
+  }
+
+  .hero-title {
+    font-size: 3.75rem;
+    line-height: 4rem;
+
+    max-width: 32.3125rem;
+    width: 100%;
+    margin: 4rem 0px 0px 2rem;
+
+    align-self: flex-start;
+  }
+
+  .hero-title span {
+    font-weight: 400;
+  }
+
+  .hero-content {
+    max-width: 26.125rem;
+    width: 100%;
+
+    margin: 1.25rem 0rem 2.5rem 2rem;
+    align-self: flex-start;
+  }
+
+  .hero-middle {
+    max-width: 24.375rem;
+    width: 100%;
+
+    justify-content: flex-start;
+    align-self: start;
+
+    margin: 0rem 0rem 2.5rem 2rem;
+  }
+
+  .hero-small-image {
+    flex-direction: row;
+    gap: 0.75rem;
+    align-self: flex-start;
+  }
+
+  .hero-happy-student-info {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  #hero-section {
+    background-image: url("../../src/images/responsive/1280px/header-hero/header-hero-image-1.png");
+  }
+
+  .hero-section-container {
+    max-width: 67.5rem;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 0px;
+    height: 37.5rem;
+    margin-bottom: 150px;
+  }
+
+  .hero-title {
+    margin: 5rem 0rem 1.25rem 3.125rem;
+    font-size: 4rem;
+    line-height: 4.25rem;
+  }
+
+  .hero-content {
+    margin-left: 3.125rem;
+    margin-bottom: 8.5rem;
+    max-width: 26.125rem;
+  }
+
+  .hero-middle {
+    margin: 0rem 0rem 3.125rem 3.125rem;
+  }
+
+  .hero-section-container-image {
+    margin-top: 5rem;
+    margin-right: 3.125rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  #hero-section {
+    background-image: url("../../src/images/responsive/1440px/header-hero/header-hero-image-1.png");
+  }
+
+  .hero-section-container {
+    max-width: 77.5rem;
+  }
+
+  .hero-section-container-image {
+    margin-top: 5rem;
+    margin-right: 6.25rem;
+  }
+}

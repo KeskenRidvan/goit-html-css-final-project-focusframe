@@ -1,0 +1,24 @@
+:root {
+  /* colors */
+  --main-dark: rgba(18, 18, 18, 1);
+  --secondary-dark: rgba(29, 29, 29, 1);
+  --gradient-dark: linear-gradient(180deg, #060707 0%, #1d1d1d 100%);
+
+  --main-brown: rgba(190, 166, 158, 1);
+  --secondary-brown: rgba(190, 166, 158, 0.4);
+
+  --main-white: rgba(255, 255, 255, 1);
+  --secondary-white: rgba(255, 255, 255, 0.5);
+  --primary-white: rgba(255, 255, 255, 0.4);
+  --empty-star-color: rgba(65, 65, 65, 1);
+
+  --main-border-color: rgba(255, 255, 255, 0.2);
+  /* colors end */
+
+  /* fonts */
+  --font-family-primary: "DM Sans", sans-serif;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+  /* fonts end*/
+}
