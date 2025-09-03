@@ -82,6 +82,7 @@
 
   font-weight: 700;
   margin-bottom: 1.25rem;
+  cursor: pointer;
 }
 
 .sign-up-button:hover {

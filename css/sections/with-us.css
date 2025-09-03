@@ -9,6 +9,8 @@
   padding: 1.25rem 0;
 
   margin-bottom: 5rem;
+
+  overflow: hidden;
 }
 
 .with-us-title {
@@ -30,6 +32,21 @@
 
 .with-us-title span {
   color: var(--main-brown);
+}
+
+.with-us-title {
+  display: block;
+  animation: with-us-title 10s linear infinite;
+}
+
+@keyframes with-us-title {
+  from {
+    transform: translateX(100%);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
 }
 
 @media screen and (min-width: 768px) {

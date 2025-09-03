@@ -9,6 +9,7 @@
 
 .header-button {
   display: none;
+  text-decoration: none;
 }
 
 .header-container {

@@ -109,6 +109,7 @@
   color: var(--main-white);
 
   padding: 1.125rem;
+  cursor: pointer;
 }
 
 .footer-second-part {
