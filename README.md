@@ -9,7 +9,6 @@ This document outlines the core tasks, structure, and technical requirements for
 The layout is fully responsive, with specific breakpoints to ensure an optimal user experience across various devices:
 
 * **Mobile:**
-    * Fluid layout from 320px.
     * Responsive from 375px.
 * **Tablet:**
     * Responsive from 768px.
@@ -19,7 +18,7 @@ The layout is fully responsive, with specific breakpoints to ensure an optimal u
 
 ### Technical Specifications ⚙️
 
-* **Validation:** The website's layout must pass validation at [https://validator.w3.org/](https://validator.w3.org/) and [https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator/). ✅
+* **Validation:** The website's layout must pass validation at [https://validator.w3.org/](https://validator.w3.org/), [https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator/) and [https://pagespeed.web.dev/](https://pagespeed.web.dev/). ✅
 * **Semantics:** Semantic compliance with HTML5 standards must be ensured.
 * **Fonts:** Fonts must be linked externally. ✒️
 * **Image Optimization:**
